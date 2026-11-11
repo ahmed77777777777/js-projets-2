@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function sumRange(start, end) {
+    let sum = 0;
+
+    for (let i = start; i <= end; i++) {
+        sum += i;
+    }
+
+    return sum;
+}
+
+let start = prompt("Enter start number:");
+let end = prompt("Enter end number:");
+
+document.write(sumRange(start, end));
+    </script>
+</body>
+</html>
